@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.w-160{
+    width: 160px;
+}
+.w-210{
+    width: 210px;
+}
+.w-300{
+    width: 300px;
+}
+.w_15{
+    width: 15%;
+}
+.w_85{
+    width: 85%;
+}
+.ms-20{
+    margin-left: 20rem !important;
+}
+.h-200{
+    height: 200px;
+}
