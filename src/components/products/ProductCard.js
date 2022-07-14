@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { FaShoppingCart } from 'react-icons/fa';
+import { useDispatch } from "react-redux";
+import { FaShoppingCart } from "react-icons/fa";
+import { addTocart } from "../../features/cartSlice";
 
 const ProductCard = () => {
   const [products, setProducts] = useState([]);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     fetch("./data/products.json", {
@@ -16,6 +19,11 @@ const ProductCard = () => {
   }, []);
 
   console.log(products, "data");
+
+  const handleAddToCart = (product) => {
+    dispatch(addTocart(product))
+    console.log("dddd");
+  };
   return (
     products &&
     products.map((product) => (
@@ -27,7 +35,10 @@ const ProductCard = () => {
         />
         <h5 className="ps-2">{product.name}</h5>
         <span className="d-block p-2">{product.price}</span>
-        <FaShoppingCart className="float-end pe-2 fs-2 text-success"/>
+        <FaShoppingCart
+          className="float-end pe-2 fs-2 text-success"
+          onClick={() => handleAddToCart(product)}
+        />
       </div>
     ))
   );
