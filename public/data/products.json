@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "HP ProBook 450",
+    "brand": "hp",
+    "image": "https://compuscience.com.eg/12817-pdt_771/hp-probook-450-g8-i7-1165g7-8gb-ssd-512g-nvme-intel-iris-xe-graphics-fpr-156-fhd-dos-silver.jpg",
+    "price": 20000,
+    "category": "laptops"
+  },
+  {
+    "id": 2,
+    "name": "Dell Inspiron G15",
+    "brand": "dell",
+    "image": "https://compuscience.com.eg/12817-pdt_771/hp-probook-450-g8-i7-1165g7-8gb-ssd-512g-nvme-intel-iris-xe-graphics-fpr-156-fhd-dos-silver.jpg",
+    "price": 20000,
+    "category": "laptops"
+  },
+  {
+    "id": 3,
+    "name": "ASUS TUF Gaming F15",
+    "brand": "asus",
+    "image": "https://compuscience.com.eg/12817-pdt_771/hp-probook-450-g8-i7-1165g7-8gb-ssd-512g-nvme-intel-iris-xe-graphics-fpr-156-fhd-dos-silver.jpg",
+    "price": 20000,
+    "category": "laptops"
+  },
+  {
+    "id": 4,
+    "name": "Lenovo IdeaPad Gaming",
+    "brand": "lenovo",
+    "image": "https://compuscience.com.eg/12817-pdt_771/hp-probook-450-g8-i7-1165g7-8gb-ssd-512g-nvme-intel-iris-xe-graphics-fpr-156-fhd-dos-silver.jpg",
+    "price": 20000,
+    "category": "laptops"
+  },
+  {
+    "id": 5,
+    "name": "HP 15-dw1036ne i7",
+    "brand": "hp",
+    "image": "https://compuscience.com.eg/12817-pdt_771/hp-probook-450-g8-i7-1165g7-8gb-ssd-512g-nvme-intel-iris-xe-graphics-fpr-156-fhd-dos-silver.jpg",
+    "price": 20000,
+    "category": "laptops"
+  },
+  {
+    "id": 6,
+    "name": "DELL Vostro 3510",
+    "brand": "dell",
+    "image": "https://compuscience.com.eg/12817-pdt_771/hp-probook-450-g8-i7-1165g7-8gb-ssd-512g-nvme-intel-iris-xe-graphics-fpr-156-fhd-dos-silver.jpg",
+    "price": 20000,
+    "category": "laptops"
+  },
+  {
+    "id": 7,
+    "name": "ASUS ROG Zephyrus",
+    "brand": "asus",
+    "image": "https://compuscience.com.eg/12817-pdt_771/hp-probook-450-g8-i7-1165g7-8gb-ssd-512g-nvme-intel-iris-xe-graphics-fpr-156-fhd-dos-silver.jpg",
+    "price": 20000,
+    "category": "laptops"
+  }
+]
