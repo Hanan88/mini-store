@@ -22,7 +22,6 @@ const ProductCard = () => {
 
   const handleAddToCart = (product) => {
     dispatch(addTocart(product))
-    console.log("dddd");
   };
   return (
     products &&
@@ -36,6 +35,7 @@ const ProductCard = () => {
         <h5 className="ps-2">{product.name}</h5>
         <span className="d-block p-2">{product.price}</span>
         <FaShoppingCart
+        role="button"
           className="float-end pe-2 fs-2 text-success"
           onClick={() => handleAddToCart(product)}
         />

@@ -1,7 +1,11 @@
 import React from "react";
 import { FaOpencart, FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+
 const Header = () => {
+  const { cartItems } = useSelector((state) => state.cart);
+
   return (
     <div className="d-flex justify-content-around pt-2">
       <div>
@@ -47,8 +51,9 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <FaShoppingCart className="fs-2" />
+        <div className="position-relative">
+          <Link to='/cart'><FaShoppingCart className="fs-2 text-dark" /></Link>
+          <span className="popCount position-absolute">{cartItems.length}</span>
         </div>
       </div>
     </div>
